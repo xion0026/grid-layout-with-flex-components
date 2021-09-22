@@ -26,7 +26,7 @@ body {
   font-size: 4rem;
 }
 
-/* grid for emojis card */
+/* grid properties to layout the emoji cards */
 .emojis{
   display: grid;
   grid-template-columns: repeat(2, 400px);
@@ -42,8 +42,7 @@ body {
 /* flex for emmoji content */
 .emoji{
   display: flex;
-  flex-direction:column; 
-  
+  flex-direction:column;  
 }
 
 .icon{
